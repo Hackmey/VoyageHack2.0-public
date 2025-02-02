@@ -1,6 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:swizzle_frontend/screens/itineraryDetails.dart';
 
 
@@ -126,14 +125,6 @@ class _SearchPageState extends State<SearchPage> {
                                   style: TextStyle(
                                     fontSize: 18,
                                     fontWeight: FontWeight.bold,
-                                    color: Colors.black,
-                                  ),
-                                ),
-                                SizedBox(height: 6),
-                                Text(
-                                  itineraries[index]['description'],
-                                  style: TextStyle(
-                                    fontSize: 14,
                                     color: Colors.black,
                                   ),
                                 ),

@@ -105,7 +105,7 @@ class _HomePageState extends State<HomePage> {
         animationCurve: Curves.easeInOut,
         items: const <Widget>[
           Icon(Icons.home, size: 30, color: Colors.white),
-          Icon(Icons.chat, size: 30, color: Colors.white),
+          Icon(Icons.api, size: 30, color: Colors.white),
           Icon(Icons.group, size: 30, color: Colors.white),
           Icon(Icons.chat, size: 30, color: Colors.white),
         ],
