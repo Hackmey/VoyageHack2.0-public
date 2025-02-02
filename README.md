@@ -44,10 +44,15 @@ An AI-powered itinerary planner that helps users generate personalized travel pl
    ```
 ## System Architecture
 Basic Chatting System for both group and individual chats.
-![image](https://github.com/user-attachments/assets/8d5a75ed-60de-47de-8f0a-65603e2a8f61)
+![chat-arch](https://github.com/user-attachments/assets/6f60c3c2-9d21-4789-8bbb-2529528c5b22)
+
 
 High-level architecture of the Swizzle Bot
-![image](https://github.com/user-attachments/assets/4094fa3b-a24e-4044-b46d-de93ff08d496)
+![bot-archi](https://github.com/user-attachments/assets/657c7b9c-7421-419c-bbaf-70a99cd0a2f6)
+
+## 📸 Screenshots
+
+
 
 
 
