@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "765613793303",
+    "project_id": "swizzle-auth",
+    "storage_bucket": "swizzle-auth.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765613793303:android:1f84cf298f0cf60c517c52",
+        "android_client_info": {
+          "package_name": "com.example.swizzle_frontend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPDAdDacOHhcKC291u3yEmxZb2-Fz-i5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
