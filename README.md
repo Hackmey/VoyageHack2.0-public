@@ -42,7 +42,12 @@ An AI-powered itinerary planner that helps users generate personalized travel pl
    ```bash
    flutter run
    ```
+## System Architecture
+Basic Chatting System for both group and individual chats.
+![image](https://github.com/user-attachments/assets/8d5a75ed-60de-47de-8f0a-65603e2a8f61)
 
-## 📸 Screenshots
-(Add screenshots or GIFs of the app in action)
+High-level architecture of the Swizzle Bot
+![image](https://github.com/user-attachments/assets/4094fa3b-a24e-4044-b46d-de93ff08d496)
+
+
 
