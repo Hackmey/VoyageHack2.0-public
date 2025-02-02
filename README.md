@@ -1,6 +1,8 @@
 # VoyageHack2.0-public
 # 🌍 Swizzle
 
+**[VIDEO EXPLANATION] ** - https://drive.google.com/file/d/1L9ef4nolkwArl9ud23-auBAhA3MFs4Gx/view
+
 An AI-powered itinerary planner that helps users generate personalized travel plans, modify them dynamically, and integrate real-time weather updates and flight search.
 
 ## ✨ Features
