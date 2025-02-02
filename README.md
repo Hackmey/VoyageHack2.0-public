@@ -42,6 +42,9 @@ An AI-powered itinerary planner that helps users generate personalized travel pl
    ```bash
    flutter run
    ```
+**[NOTE]: TBO Auth Token may get expired after 24 hours of generating, use a newly generated auth token**
+
+
 ## System Architecture
 Basic Chatting System for both group and individual chats.
 ![chat-arch](https://github.com/user-attachments/assets/6f60c3c2-9d21-4789-8bbb-2529528c5b22)
@@ -51,34 +54,36 @@ High-level architecture of the Swizzle Bot
 ![bot-archi](https://github.com/user-attachments/assets/657c7b9c-7421-419c-bbaf-70a99cd0a2f6)
 
 ## 📸 Screenshots
-Login Page
-![signup](https://github.com/user-attachments/assets/9cae1ff5-483b-4158-a07d-a526c3bbc4d1)
-![login](https://github.com/user-attachments/assets/163540f0-8ea4-42a6-a973-473904b0fb79)
+Login and Signup Page
+
+![image](https://github.com/user-attachments/assets/5fcbe323-60d0-42db-82d2-b9cac23f6502)
 
 Intro Page
-![intro](https://github.com/user-attachments/assets/52f301db-e27c-48d8-93a8-63e4e37ef13f)
+
+![image](https://github.com/user-attachments/assets/63177fec-8246-4836-997e-340390566435)
 
 Home Page & Itinerary Page
-![trending](https://github.com/user-attachments/assets/dba035e7-5e3e-45af-bf2f-73cbb0630ae8)
-![post-it](https://github.com/user-attachments/assets/7f92938c-a71f-489e-8713-0daf3aaa8a7f)
-![search-it](https://github.com/user-attachments/assets/b3b48c06-15cb-4b49-9ef6-299e7117ca9a)
-![it-details](https://github.com/user-attachments/assets/8a93f75d-7f2f-455c-bdd3-1f4e1fb66efb)
+
+![image](https://github.com/user-attachments/assets/7dcff2b2-79ac-4c72-b5a1-5e2155568e68)
+
 
 Swizzle Bot
-![swizzle-bot](https://github.com/user-attachments/assets/1c989779-b17d-4bcd-a55e-a77db3480cb5)
+
+![image](https://github.com/user-attachments/assets/17fa095b-074d-4fc3-9f5f-02f90000b67d)
+
 
 Community Tab
-![community-page](https://github.com/user-attachments/assets/6a324fb6-5128-48ea-9476-1f4a2de4b761)
-![create-community](https://github.com/user-attachments/assets/7b982d55-c2b8-4547-b5ab-634eca529b9e)
+
+![image](https://github.com/user-attachments/assets/54045c8e-2f0b-4576-b93e-b5d032a51339)
+
 
 Groups Page
-![create-groups](https://github.com/user-attachments/assets/0a5bfc4f-faae-4fc1-8b80-14ddfeefe4f5)
-![groups](https://github.com/user-attachments/assets/4f675402-d5aa-4573-8d29-5f3a2e488e23)
+
+![image](https://github.com/user-attachments/assets/83c6e8a3-93f1-4864-80fc-6f40109fab52)
 
 Group Chat
-![poll](https://github.com/user-attachments/assets/5c2541dd-158f-470d-9a5a-92b972134cae)
-![group-bot](https://github.com/user-attachments/assets/afa06a4c-8484-428e-b65c-c811fc3f537a)
-![group-chat](https://github.com/user-attachments/assets/e9db1f88-a762-4488-8604-93b783387bd6)
+
+![image](https://github.com/user-attachments/assets/a2029030-5a35-40af-9bb1-732fbfcddbe4)
 
 
 
