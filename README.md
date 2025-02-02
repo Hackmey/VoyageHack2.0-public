@@ -32,6 +32,7 @@ An AI-powered itinerary planner that helps users generate personalized travel pl
 1. Clone the repository:
    ```bash
    git clone https://github.com/Hackmey/VoyageHack2.0-public.git
+   cd VoyageHack2.0-public
    cd swizzle_frontend
    ```
 2. Install dependencies (Flutter):
@@ -42,6 +43,7 @@ An AI-powered itinerary planner that helps users generate personalized travel pl
    ```bash
    flutter run
    ```
+**[NOTE] : While you run the app make sure that you connect an android with USB Debugger option enabled.**
 **[NOTE]: TBO Auth Token may get expired after 24 hours of generating, use a newly generated auth token**
 
 
