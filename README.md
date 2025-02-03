@@ -62,8 +62,8 @@ An AI-powered itinerary planner that helps users generate personalized travel pl
    bot/Scripts/activate.bat //In CMD
    bot/Scripts/Activate.ps1 //In Powershell
    ```
-If Encountered with the powershell bug: 
-**cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170**
+If Encountered with the powershell bug:🐛
+**"cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170"**
 In that case: 
 - Run Windows powershell as adminstrator and run the following command
 ```bash 
