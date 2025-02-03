@@ -158,7 +158,7 @@ def parse_date(date_str: str) -> str:
         print(f"❌ Error parsing date '{date_str}': {e}")
         return None
 
-
+#Country code and city id were hardcoded as we were getting a few errors at the last moment(even a hardcoded json file wasn't working)
 def get_country_code(city: str) -> str:
     # Map city to country code (replace with actual logic or API call)
     city_to_country = {
@@ -193,7 +193,7 @@ def fetch_sightseeing_info(**kwargs):
         "ToDate": kwargs.get("to_date"),
         "AdultCount": kwargs.get("adult_count"),
         "ChildCount": kwargs.get("child_count"),
-        "ChildAge": [],#kwargs.get("child_age", [2,3]),  # Optional: Extract child ages if mentioned
+        "ChildAge": [],#kwargs.get("child_age", [2,3]),  # This was being manually according to input because age extraction was giving errors in the last moment
         "PreferredLanguage": kwargs.get("preferred_language", 0),
         "PreferredCurrency": kwargs.get("preferred_currency", "INR"),
         "IsBaseCurrencyRequired": kwargs.get("is_base_currency_required", False),
