@@ -1,7 +1,7 @@
 # VoyageHack2.0-public
 # 🌍 Swizzle
 
-**[VIDEO EXPLANATION] ** - https://drive.google.com/file/d/1L9ef4nolkwArl9ud23-auBAhA3MFs4Gx/view
+**[VIDEO EXPLANATION]** - https://drive.google.com/file/d/1L9ef4nolkwArl9ud23-auBAhA3MFs4Gx/view
 
 An AI-powered itinerary planner that helps users generate personalized travel plans, modify them dynamically, and integrate real-time weather updates and flight search.
 
@@ -48,6 +48,36 @@ An AI-powered itinerary planner that helps users generate personalized travel pl
 **[NOTE] : While you run the app make sure that you connect an android with USB Debugger option enabled.**
 **[NOTE]: TBO Auth Token may get expired after 24 hours of generating, use a newly generated auth token**
 
+## For Chatbot Setup
+1. Setup Virual environment:
+   ```bash
+   cd VoyageHack2.-public
+   cd itinerary_gen
+   pip install virtualenv
+   python3 -m venv bot
+   ```
+   here virtual environment has been named as "bot" for further eg:
+2. Activate Virtual environment:
+   ```bash
+   bot/Scripts/activate.bat //In CMD
+   bot/Scripts/Activate.ps1 //In Powershell
+   ```
+If Encountered with the powershell bug: 
+**cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170**
+In that case: 
+- Run Windows powershell as adminstrator and run the following command
+```bash 
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
+```
+- type Y for yes, hit enter
+- rerun the command and type A and hit enter
+- close the powershell
+- and run the above scripts to activate the virtual environment
+      
+3. Install dependancies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## System Architecture
 Basic Chatting System for both group and individual chats.
